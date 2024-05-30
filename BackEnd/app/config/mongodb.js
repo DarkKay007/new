@@ -1,7 +1,7 @@
 // config/database.js
 import { MongoClient, ServerApiVersion } from 'mongodb';
 
-const uri = "mongodb+srv://julian:julian@extra.rj0ctwm.mongodb.net/?retryWrites=true&w=majority&appName=extra";
+const uri = "mongodb+srv://user456:user456@extra.rj0ctwm.mongodb.net/?retryWrites=true&w=majority&appName=extra";
 
 const client = new MongoClient(uri, {
   serverApi: {

@@ -143,7 +143,7 @@ const EliminaClientRegistro = (event) => {
     });
 };
 
-const showEditClientForm  = (id) => {
+const showEditClientForm   = (id) => {
     const row = document.getElementById(`client-${id}`);
     const nombre = row.children[1].innerHTML;
     const direccion = row.children[2].innerHTML;
